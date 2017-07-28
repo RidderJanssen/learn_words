@@ -1,0 +1,16 @@
+<%= form_for :word, url: words_path do |f| %>
+  <p>
+    <%= f.label :meaninga %>
+    <%= f.text_field :meaninga %>
+  </p>
+
+  <p>
+    <%= f.label :meaningb %>
+    <%= f.text_field :meaningb %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>
