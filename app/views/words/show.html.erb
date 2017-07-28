@@ -1,0 +1,16 @@
+<h1>All Words:</h1>
+
+<table>
+  <thead>
+    <th>English</th>
+    <th>Dutch</th>
+  </thead>
+  <tbody>
+    <% @words.each do |word| %>
+      <tr>
+        <td><%= word.meaninga %></td>
+        <td><%= word.meaningb %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

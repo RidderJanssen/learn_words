@@ -1,0 +1,10 @@
+<h1>Practice all the words</h1>
+
+<strong>Next word: </strong> <i><%= @toguess.meaninga %></i>
+
+<br /><br />
+<button onclick='document.getElementById("secret").style.display="block";'>Reveal Meaning</button>
+<br /><br />
+<div id="secret"> The meaning was: <i><%= @toguess.meaningb %></i></div>
+<br /><br />
+<button onclick='window.location.reload()'>Next Word</button>
