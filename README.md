@@ -1,24 +1,7 @@
-# README
+# Learn All Your Words!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app will make your life easier, while memorizing words and their translations.
 
-Things you may want to cover:
+Currently it's Work In Progress.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Go to /words/show to view the list with words.
