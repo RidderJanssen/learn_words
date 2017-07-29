@@ -4,8 +4,19 @@
 
 <br /><br />
 
+<!--
 <button onclick='document.getElementById("secret").style.display="block";'>Reveal Meaning</button>
 <br /><br />
 <div id="secret"> The meaning was: <i><%= @toguess.meaningb %></i></div>
+-->
+
+Your answer: <br />
+<input type="text" id="uranswer"></input>
+<br />
+<button onclick='if (document.getElementById("uranswer").value == "<%= @toguess.meaningb %>") { document.getElementById("correction").innerHTML = "Correct! <br /> The right answer was <%= @toguess.meaningb %>"; } else { document.getElementById("correction").innerHTML = "Incorrect! <br /> The right answer was \"<%= @toguess.meaningb %>\""; } '>Submit</button>
+<br />
+<div id="correction"></div>
+
+
 <br /><br />
 <button onclick='window.location.reload()'>Next Word</button>
